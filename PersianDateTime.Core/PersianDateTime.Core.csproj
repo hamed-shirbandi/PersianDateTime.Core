@@ -11,6 +11,7 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes></PackageReleaseNotes>
     <copyright>Copyright 2017 codeblock.ir</copyright>
+    <PackageProjectUrl>https://github.com/hamed-shirbandi/PersianDateTime.Core</PackageProjectUrl>
     <PackageTags>Persian;.NETCore;PersianDate;DateTime;Iran;PersianCalendar</PackageTags>
   </PropertyGroup>
   
