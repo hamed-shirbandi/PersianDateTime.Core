@@ -1,0 +1,25 @@
+﻿@using PersianDateTime.Core
+@{
+    ViewData["Title"] = "Home Page";
+    var nowDatetime = DateTime.Now;
+    var persianNowDatetime = nowDatetime.ToPersianDateTime();
+}
+
+<div class="row">
+    <h2>PersianDateTime.Core </h2>
+    <div class="col-md-3">
+        <ul>
+            <li>@nowDatetime.ToPersianDateTimeString()</li>
+            <li>@nowDatetime.ToPersianDateString()</li>
+            <li>@nowDatetime.ToPersianDateTime()</li>
+            <li>@nowDatetime.ToDateTimeString()</li>
+            <li>@nowDatetime.ToDigitalDateTimeString()</li>
+            <li>@nowDatetime.ToPersianDigitalDateTimeString()</li>
+            <li>@nowDatetime.ToPersianDateString()</li>
+            <li>@persianNowDatetime.ToDateTime()</li>
+            <li>@persianNowDatetime.ToPersianDigitalDateTimeString()</li>
+            <li>@persianNowDatetime.ToPersianDigitalDateString()</li>
+            <li>@persianNowDatetime.ToDateString()</li>
+        </ul>
+    </div>
+</div>

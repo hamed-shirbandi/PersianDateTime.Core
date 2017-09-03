@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <AssemblyName>PersianDateTime.Core</AssemblyName>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>hamed shirbandi, RahmatRezaei</Authors>
+    <Description>All of things you need when you want to work with a Persian calendar. for more example please visit the project site.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <copyright>Copyright 2017 codeblock.ir</copyright>
+    <PackageTags>Persian;.NETCore;PersianDate;DateTime;Iran;PersianCalendar</PackageTags>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <PlatformTarget>anycpu</PlatformTarget>
+  </PropertyGroup>
+  <Target Name="PostcompileScript" AfterTargets="Build">
+    <Exec Command="dotnet pack --no-build --configuration $(Configuration)" />
+  </Target>
+  
+  
+</Project>
