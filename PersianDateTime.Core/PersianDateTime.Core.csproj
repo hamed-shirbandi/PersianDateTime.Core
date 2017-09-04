@@ -3,7 +3,7 @@
   <PropertyGroup />
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFrameworks>net40;net45;net46;netstandard1.3;netstandard2.0</TargetFrameworks>
     <AssemblyName>PersianDateTime.Core</AssemblyName>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>hamed shirbandi, RahmatRezaei</Authors>
@@ -12,15 +12,14 @@
     <PackageReleaseNotes></PackageReleaseNotes>
     <copyright>Copyright 2017 codeblock.ir</copyright>
     <PackageProjectUrl>https://github.com/hamed-shirbandi/PersianDateTime.Core</PackageProjectUrl>
+    <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netstandard1.3' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.3' ">1.6.1</NetStandardImplicitPackageVersion>
     <PackageTags>Persian;.NETCore;PersianDate;DateTime;Iran;PersianCalendar</PackageTags>
   </PropertyGroup>
-  
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <PlatformTarget>anycpu</PlatformTarget>
   </PropertyGroup>
   <Target Name="PostcompileScript" AfterTargets="Build">
     <Exec Command="dotnet pack --no-build --configuration $(Configuration)" />
   </Target>
-  
-  
 </Project>
