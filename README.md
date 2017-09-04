@@ -17,21 +17,112 @@
 </code></pre>
 
 ## <div dir="rtl">نصب از طریق NuGet </div>
+<div dir="rtl">
+  <table class="table table-striped">
+        <thead class="">
+            <tr>
+                <th>عنوان</th>
+                <th>مثال</th>
+                <th>خروجی</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>دریافت تاریخ جاری به صورت شمسی</td>
+                <td>PersianDateTime.Now</td>
+                <td>1396/06/13 15:32:17</td>
+            </tr>
+            <tr>
+                <td>تبدیل رشته به تاریخ شمسی</td>
+                <td>PersianDateTime.Parse("1392/03/02")</td>
+                <td>1392/03/02 00:00:00</td>
+            </tr>
+
+            <tr>
+                <td>دریافت ساعت جاری</td>
+                <td>PersianDateTime.Now.TimeOfDay</td>
+                <td>15:32:17.4807575</td>
+            </tr>
+            <tr>
+                <td>دریافت روز جاری</td>
+                <td>PersianDateTime.Now.DayOfWeek</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>افزایش چند روز به تاریخ شمسی جاری</td>
+                <td>PersianDateTime.Now.AddDays(15)</td>
+                <td>1396/06/28 15:32:17</td>
+            </tr>
+            <tr>
+                <td>عملگر تفریق بین دو تاریخ شمسی</td>
+                <td>PersianDateTime.Now.AddDays(15) - PersianDateTime.Now</td>
+                <td>14.23:59:59.9999914</td>
+            </tr>
+            <tr>
+                <td>تبدیل تاریخ میلادی به شمسی</td>
+                <td>DateTime.Now.ToPersianDateTime()</td>
+                <td>1396/06/13 15:32:17</td>
+            </tr>
 
 
+            <tr>
+                <td>تبدیل تاریخ میلادی به شمسی</td>
+                <td>DateTime.Now.ToPersianDateTimeString()</td>
+                <td>دوشنبه 13 شهریور 1396 ساعت 15:32:17</td>
+            </tr>
 
-عنوان | مثال | خروجی
-دریافت تاریخ جاری به صورت شمسی | PersianDateTime.Now | 1396/06/13 14:34:03 |
-تبدیل تاریخ میلادی به شمسی | dt.ToPersianDateTime() | 1396/06/13 14:34:03 |
-تبدیل تاریخ میلادی به شمسی | dt.ToPersianDateTimeString() | دوشنبه 13 شهریور 1396 ساعت 14:34:03|
-تبدیل تاریخ میلادی به شمسی | dt.ToPersianDateString() | دوشنبه 13 شهریور 1396 |
-تبدیل تاریخ میلادی به میلادی | dt.ToDateTimeString() | Monday 4 September 2017 02:36:55 PM |
-تبدیل تاریخ میلادی به میلادی | dt.ToDigitalDateTimeString() |2017/09/4 14:36:55 |
-تبدیل تاریخ میلادی به شمسی | dt.ToPersianDigitalDateTimeString() | 1396/06/13 14:36:55 |
-تبدیل تاریخ شمسی به میلادی | dt.ToDateTime() | 9/4/2017 2:36:55 PM |
-تبدیل تاریخ میلادی به شمسی | dt.ToPersianDigitalDateTimeString() | 1396/06/13 14:36:55 |
-تبدیل تاریخ میلادی به شمسی | dt.ToPersianDigitalDateString() | 1396/06/13 |
-تبدیل تاریخ میلادی به میلادی | dt.ToDateString() | Monday 4 September 2017 |
+
+            <tr>
+                <td>تبدیل تاریخ میلادی به شمسی</td>
+                <td>DateTime.Now.ToPersianDateString()</td>
+                <td>دوشنبه 13 شهریور 1396</td>
+            </tr>
+
+
+            <tr>
+                <td>تبدیل تاریخ میلادی به شمسی</td>
+                <td>DateTime.Now.ToPersianDigitalDateTimeString()</td>
+                <td>1396/06/13 15:32:17</td>
+            </tr>
+
+            <tr>
+                <td>تبدیل تاریخ میلادی به شمسی</td>
+                <td>DateTime.Now.ToPersianDigitalDateTimeString()</td>
+                <td>1396/06/13 15:32:17</td>
+            </tr>
+
+            <tr>
+                <td>تبدیل تاریخ شمسی به شمسی</td>
+                <td>PersianDateTime.Now.ToPersianDigitalDateString()</td>
+                <td>1396/06/13</td>
+            </tr>
+            <tr>
+                <td>تبدیل تاریخ شمسی به میلادی</td>
+                <td>PersianDateTime.Now.ToDateTime()</td>
+                <td>9/4/2017 3:32:17 PM</td>
+            </tr>
+            <tr>
+                <td>تبدیل تاریخ شمسی به میلادی</td>
+                <td>PersianDateTime.Now.ToDateString()</td>
+                <td>Monday 4 September 2017</td>
+            </tr>
+
+
+            <tr>
+                <td>تبدیل تاریخ میلادی به میلادی</td>
+                <td>DateTime.Now.ToDateTimeString()</td>
+                <td>Monday 4 September 2017 03:32:17 PM</td>
+            </tr>
+            <tr>
+                <td>تبدیل تاریخ میلادی به میلادی</td>
+                <td>DateTime.Now.ToDigitalDateTimeString()</td>
+                <td>2017/09/4 15:32:17</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+</div>
 
 # Thanks
 [rahmat rezaei](http://www.codeplex.com/site/users/view/rahmatrezaei)
