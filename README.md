@@ -16,6 +16,7 @@
 <pre><code>PM&gt; Install-Package PersianDateTime.Core</code></pre>
 
 ## <div dir="rtl">جدول امکانات </div>
+<div dir="rtl">
 خروجی   | مثال  | عنوان
 ------------- | -------------- | -------------
 دریافت تاریخ جاری به صورت شمسی	   | PersianDateTime.Now	    | 1396/06/13 15:32:17
@@ -39,7 +40,7 @@ Content   | Content    | Content
 Content   | Content    | Content 
 Content   | Content    | Content 
 Content   | Content    | Content 
-
+</div>
 
 
 # Thanks
