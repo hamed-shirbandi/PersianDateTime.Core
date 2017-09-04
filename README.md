@@ -18,7 +18,7 @@
 ## <div dir="rtl">جدول امکانات </div>
 خروجی   | مثال  | عنوان
 ------------- | -------------- | -------------
-دریافت تاریخ جاری به صورت شمسی	   | PersianDateTime.Now	    | 1396/06/13 15:32:17
+	1396/06/13 15:32:17| PersianDateTime.Now	| دریافت تاریخ جاری به صورت شمسی
 Content   | Content    | Content 
 Content   | Content    | Content 
 Content   | Content    | Content 
