@@ -14,7 +14,7 @@
 </div>
 ```code
   PM> Install-Package PersianDateTime.Core
-```code
+```
 
 # Thanks
 [rahmat rezaei](http://www.codeplex.com/site/users/view/rahmatrezaei)
