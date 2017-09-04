@@ -13,7 +13,7 @@
 برای نصب این کتابخانه میتوانید دستور زیر را در کنسول پاورشل نیوگت اجرا کنید
 </div>
 ```code
-  PM> Install-Package PersianDateTime.Core
+pm> Install-Package PersianDateTime.Core
 ```
 
 # Thanks
