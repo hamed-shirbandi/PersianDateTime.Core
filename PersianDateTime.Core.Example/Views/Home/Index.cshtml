@@ -3,23 +3,112 @@
     ViewData["Title"] = "Home Page";
     var nowDatetime = DateTime.Now;
     var persianNowDatetime = nowDatetime.ToPersianDateTime();
+
 }
 
-<div class="row">
+<div dir="rtl" class="row">
     <h2>PersianDateTime.Core </h2>
-    <div class="col-md-3">
-        <ul>
-            <li>@nowDatetime.ToPersianDateTimeString()</li>
-            <li>@nowDatetime.ToPersianDateString()</li>
-            <li>@nowDatetime.ToPersianDateTime()</li>
-            <li>@nowDatetime.ToDateTimeString()</li>
-            <li>@nowDatetime.ToDigitalDateTimeString()</li>
-            <li>@nowDatetime.ToPersianDigitalDateTimeString()</li>
-            <li>@nowDatetime.ToPersianDateString()</li>
-            <li>@persianNowDatetime.ToDateTime()</li>
-            <li>@persianNowDatetime.ToPersianDigitalDateTimeString()</li>
-            <li>@persianNowDatetime.ToPersianDigitalDateString()</li>
-            <li>@persianNowDatetime.ToDateString()</li>
-        </ul>
-    </div>
+    <table  class="table table-striped">
+        <thead class="">
+            <tr>
+                <th>عنوان</th>
+                <th>مثال</th>
+                <th>خروجی</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>دریافت تاریخ جاری به صورت شمسی</td>
+                <td>PersianDateTime.Now</td>
+                <td>@PersianDateTime.Now</td>
+            </tr>
+            <tr>
+                <td>تبدیل رشته به تاریخ شمسی</td>
+                <td>PersianDateTime.Parse("1392/03/02")</td>
+                <td>@PersianDateTime.Parse("1392/03/02")</td>
+            </tr>
+
+            <tr>
+                <td>دریافت ساعت جاری</td>
+                <td>PersianDateTime.Now.TimeOfDay</td>
+                <td>@PersianDateTime.Now.TimeOfDay</td>
+            </tr>
+            <tr>
+                <td>دریافت روز جاری</td>
+                <td>PersianDateTime.Now.DayOfWeek</td>
+                <td>@PersianDateTime.Now.DayOfWeek</td>
+            </tr>
+            <tr>
+                <td>افزایش چند روز به تاریخ شمسی جاری</td>
+                <td>PersianDateTime.Now.AddDays(15)</td>
+                <td>@PersianDateTime.Now.AddDays(15)</td>
+            </tr>
+            <tr>
+                <td>عملگر تفریق بین دو تاریخ شمسی</td>
+                <td>PersianDateTime.Now.AddDays(15) - PersianDateTime.Now</td>
+                <td>@(PersianDateTime.Now.AddDays(15) - PersianDateTime.Now)</td>
+            </tr>
+            <tr>
+                <td>تبدیل تاریخ میلادی به شمسی</td>
+                <td>DateTime.Now.ToPersianDateTime()</td>
+                <td>@DateTime.Now.ToPersianDateTime()</td>
+            </tr>
+
+
+            <tr>
+                <td>تبدیل تاریخ میلادی به شمسی</td>
+                <td>DateTime.Now.ToPersianDateTimeString()</td>
+                <td>@DateTime.Now.ToPersianDateTimeString()</td>
+            </tr>
+
+
+            <tr>
+                <td>تبدیل تاریخ میلادی به شمسی</td>
+                <td>DateTime.Now.ToPersianDateString()</td>
+                <td>@DateTime.Now.ToPersianDateString()</td>
+            </tr>
+
+
+            <tr>
+                <td>تبدیل تاریخ میلادی به شمسی</td>
+                <td>DateTime.Now.ToPersianDigitalDateTimeString()</td>
+                <td>@DateTime.Now.ToPersianDigitalDateTimeString()</td>
+            </tr>
+
+            <tr>
+                <td>تبدیل تاریخ میلادی به شمسی</td>
+                <td>DateTime.Now.ToPersianDigitalDateTimeString()</td>
+                <td>@DateTime.Now.ToPersianDigitalDateTimeString()</td>
+            </tr>
+
+            <tr>
+                <td>تبدیل تاریخ شمسی به شمسی</td>
+                <td>PersianDateTime.Now.ToPersianDigitalDateString()</td>
+                <td>@PersianDateTime.Now.ToPersianDigitalDateString()</td>
+            </tr>
+            <tr>
+                <td>تبدیل تاریخ شمسی به میلادی</td>
+                <td>PersianDateTime.Now.ToDateTime()</td>
+                <td>@PersianDateTime.Now.ToDateTime()</td>
+            </tr>
+            <tr>
+                <td>تبدیل تاریخ شمسی به میلادی</td>
+                <td>PersianDateTime.Now.ToDateString()</td>
+                <td>@PersianDateTime.Now.ToDateString()</td>
+            </tr>
+
+
+            <tr>
+                <td>تبدیل تاریخ میلادی به میلادی</td>
+                <td>DateTime.Now.ToDateTimeString()</td>
+                <td>@DateTime.Now.ToDateTimeString()</td>
+            </tr>
+            <tr>
+                <td>تبدیل تاریخ میلادی به میلادی</td>
+                <td>DateTime.Now.ToDigitalDateTimeString()</td>
+                <td>@DateTime.Now.ToDigitalDateTimeString()</td>
+            </tr>
+
+        </tbody>
+    </table>
 </div>
