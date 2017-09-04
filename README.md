@@ -12,9 +12,10 @@
 <div dir="rtl">
 برای نصب این کتابخانه میتوانید دستور زیر را در کنسول پاورشل نیوگت اجرا کنید
 </div>
-```code
-pm> Install-Package PersianDateTime.Core
-```
+
+<pre><code>PM&gt; Install-Package PersianDateTime.Core
+</code></pre>
+
 
 # Thanks
 [rahmat rezaei](http://www.codeplex.com/site/users/view/rahmatrezaei)
