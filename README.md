@@ -19,9 +19,9 @@
 خروجی   | مثال  | عنوان
 ------------- | -------------- | -------------
 1396/06/13 15:32:17 | PersianDateTime.Now | دریافت تاریخ جاری به صورت شمسی
-Content   | Content    | Content 
-Content   | Content    | Content 
-Content   | Content    | Content 
+1392/03/02 00:00:00 | PersianDateTime.Parse("1392/03/02") | تبدیل رشته به تاریخ شمسی	 
+15:32:17.4807575 | PersianDateTime.Now.TimeOfDay | دریافت ساعت جاری	 
+2 | PersianDateTime.Now.DayOfWeek | دریافت روز جاری	 
 Content   | Content    | Content 
 Content   | Content    | Content 
 Content   | Content    | Content 
