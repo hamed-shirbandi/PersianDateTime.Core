@@ -15,9 +15,29 @@
 
 <pre><code>PM&gt; Install-Package PersianDateTime.Core</code></pre>
 
+## <div dir="rtl">جدول امکانات </div>
 خروجی   | مثال  | عنوان
 ------------- | -------------- | -------------
-Content Cell  | Content Cell   | Content Cell
+Content   | Content    | Content
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
+Content   | Content    | Content 
 
 
 
