@@ -28,7 +28,6 @@
 دوشنبه 13 شهریور 1396 ساعت 15:32:17   | DateTime.Now.ToPersianDateTimeString()	    | تبدیل تاریخ میلادی به شمسی	 
 دوشنبه 13 شهریور 1396   | DateTime.Now.ToPersianDateString()	    | تبدیل تاریخ میلادی به شمسی	 
 1396/06/13 15:32:17   | DateTime.Now.ToPersianDigitalDateTimeString()	    | تبدیل تاریخ میلادی به شمسی	 
-1396/06/13 15:32:17   | DateTime.Now.ToPersianDigitalDateTimeString()	    | تبدیل تاریخ میلادی به شمسی	 
 1396/06/13   | PersianDateTime.Now.ToPersianDigitalDateString()	    | تبدیل تاریخ شمسی به شمسی	 
 9/4/2017 3:32:17 PM   | PersianDateTime.Now.ToDateTime()	    | تبدیل تاریخ شمسی به میلادی	 
 Monday 4 September 2017   | PersianDateTime.Now.ToDateString()	    | تبدیل تاریخ شمسی به میلادی	 
