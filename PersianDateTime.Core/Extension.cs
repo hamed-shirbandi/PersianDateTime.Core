@@ -1,5 +1,5 @@
 ﻿using System;
-namespace PersianDateTime.Core
+namespace PersianDateTime
 {
     /// <summary>
     /// 

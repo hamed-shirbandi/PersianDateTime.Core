@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Globalization;
 using System.Reflection;
-using System.Text;
 
-namespace PersianDateTime.Core
+namespace PersianDateTime
 {
 
     /// <summary>

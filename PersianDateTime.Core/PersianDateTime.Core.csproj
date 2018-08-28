@@ -1,21 +1,24 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup />
 
   <PropertyGroup>
-    <TargetFrameworks>net40;net45;net46;netstandard1.3;netstandard2.0</TargetFrameworks>
-    <AssemblyName>PersianDateTime.Core</AssemblyName>
-    <PackageVersion>1.0.0</PackageVersion>
     <Authors>hamed shirbandi, RahmatRezaei</Authors>
     <Description>All of things you need when you want to work with a Persian calendar. for more example please visit the project site.</Description>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes></PackageReleaseNotes>
-    <copyright>Copyright 2017 codeblock.ir</copyright>
-    <PackageProjectUrl>https://github.com/hamed-shirbandi/PersianDateTime.Core</PackageProjectUrl>
-    <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netstandard1.3' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
-    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.3' ">1.6.1</NetStandardImplicitPackageVersion>
+    <VersionPrefix>1.0.6</VersionPrefix>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>PersianDateTime.Core</AssemblyName>
+    <PackageId>PersianDateTime.Core</PackageId>
     <PackageTags>Persian;.NETCore;PersianDate;DateTime;Iran;PersianCalendar</PackageTags>
+    <PackageProjectUrl>https://github.com/hamed-shirbandi/PersianDateTime.Core</PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <copyright>Copyright 2017 codeblock.ir</copyright>
+    <PackageTargetFallback></PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
+
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <PlatformTarget>anycpu</PlatformTarget>
   </PropertyGroup>

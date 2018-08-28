@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PersianDateTime.Core
+﻿namespace PersianDateTime
 {
     /// <summary>
     /// Specifies the date and time format
