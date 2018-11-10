@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace PersianDateTime.Core.Test
+namespace PersianDateTimeCore.Test
 {
     [TestClass]
     public class ExtensionsTest

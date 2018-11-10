@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using PersianDateTime.Core.Example.Models;
+using PersianDateTimeCore.Example.Models;
 
-namespace PersianDateTime.Core.Example.Controllers
+namespace PersianDateTimeCore.Example.Controllers
 {
     public class HomeController : Controller
     {

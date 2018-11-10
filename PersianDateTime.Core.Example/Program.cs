@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace PersianDateTime.Core.Example
+namespace PersianDateTimeCore.Example
 {
     public class Program
     {

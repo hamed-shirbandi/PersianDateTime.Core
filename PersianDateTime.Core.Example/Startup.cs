@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace PersianDateTime.Core.Example
+namespace PersianDateTimeCore.Example
 {
     public class Startup
     {

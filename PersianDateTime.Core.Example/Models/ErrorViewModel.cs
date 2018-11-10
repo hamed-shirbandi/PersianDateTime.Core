@@ -1,6 +1,6 @@
 using System;
 
-namespace PersianDateTime.Core.Example.Models
+namespace PersianDateTimeCore.Example.Models
 {
     public class ErrorViewModel
     {

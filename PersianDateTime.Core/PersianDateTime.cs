@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Globalization;
-using System.Reflection;
-
-namespace PersianDateTime
-{
 
     /// <summary>
     /// Represents an instant in time, typically expressed as a date and time of day in the persian calendar.
@@ -758,5 +754,4 @@ namespace PersianDateTime
         }
 
     }
-}
 

@@ -1,11 +1,11 @@
 ﻿using System;
-namespace PersianDateTime
-{
-    /// <summary>
+
+
+ /// <summary>
     /// 
     /// </summary>
-    public static class Extension
-    {
+    public static class PersianDateTimeExtension
+{
 
 
 
@@ -209,4 +209,3 @@ namespace PersianDateTime
 
 
 
-}

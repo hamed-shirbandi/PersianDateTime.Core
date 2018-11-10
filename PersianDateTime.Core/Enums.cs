@@ -1,5 +1,4 @@
-﻿namespace PersianDateTime
-{
+﻿
     /// <summary>
     /// Specifies the date and time format
     /// </summary>
@@ -35,4 +34,3 @@
         /// </summary>
         UtcOffset
     }
-}
