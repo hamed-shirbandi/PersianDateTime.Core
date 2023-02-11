@@ -142,7 +142,7 @@ public class PersianDateTime
     /// <returns>The name of the specified month.</returns>
     public static string GetMonthName(int month)
     {
-        return _monthNames[month + 1];
+        return _monthNames[month - 1];
     }
 
     /// <summary>
