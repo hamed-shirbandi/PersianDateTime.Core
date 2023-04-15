@@ -19,7 +19,7 @@ public class PersianDateTime
     public static PersianDateTimeMode Mode = PersianDateTimeMode.UtcOffset;
     public static TimeSpan DaylightSavingTimeStart = TimeSpan.FromDays(1);
     public static TimeSpan DaylightSavingTimeEnd = TimeSpan.FromDays(185);
-    public static TimeSpan DaylightSavingTime = TimeSpan.FromHours(1);
+    public static TimeSpan DaylightSavingTime = TimeSpan.FromHours(0);
     public static TimeSpan OffsetFromUtc = new TimeSpan(3, 30, 0);
     /// <summary>
     /// A System.TimeZoneInfo object that represents the persian time zone.
