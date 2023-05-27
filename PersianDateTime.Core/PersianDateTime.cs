@@ -403,9 +403,10 @@ public class PersianDateTime
     /// <param name="hour">The hours (0 through 23).</param>
     /// <param name="minute">The minutes (0 through 59).</param>
     /// <param name="second">The seconds (0 through 59).</param>
-    public PersianDateTime(int year, int month, int day, int hour, int minute, int second)
+    /// <param name="millisecond">The seconds (0 through 999).</param>
+    public PersianDateTime(int year, int month, int day, int hour, int minute, int second,int millisecond)
     {
-        _dateTime = _persianCalendar.ToDateTime(year, month, day, hour, minute, second, 0);
+        _dateTime = _persianCalendar.ToDateTime(year, month, day, hour, minute, second, millisecond);
     }
 
     /// <summary>
