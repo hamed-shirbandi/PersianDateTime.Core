@@ -390,7 +390,7 @@ public class PersianDateTime
     /// <param name="month">The month (1 through 12).</param>
     /// <param name="day">The day (1 through the number of days in month).</param>
     public PersianDateTime(int year, int month, int day)
-        : this(year, month, day, 0, 0, 0)
+        : this(year, month, day, 0, 0, 0,0)
     {
     }
 
