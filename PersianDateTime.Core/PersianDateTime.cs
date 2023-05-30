@@ -403,6 +403,20 @@ public class PersianDateTime
     /// <param name="hour">The hours (0 through 23).</param>
     /// <param name="minute">The minutes (0 through 59).</param>
     /// <param name="second">The seconds (0 through 59).</param>
+    public PersianDateTime(int year, int month, int day, int hour, int minute, int second)
+        : this(year, month, day, hour, minute, second, 0)
+    {
+    }
+    
+    /// <summary>
+    /// Initializes a new instance of the PersianDateTime class to the specified year, month, day, hour, minute, second and millisecond.
+    /// </summary>
+    /// <param name="year">The year (1 through 9999).</param>
+    /// <param name="month">The month (1 through 12).</param>
+    /// <param name="day">The day (1 through the number of days in month).</param>
+    /// <param name="hour">The hours (0 through 23).</param>
+    /// <param name="minute">The minutes (0 through 59).</param>
+    /// <param name="second">The seconds (0 through 59).</param>
     /// <param name="millisecond">The seconds (0 through 999).</param>
     public PersianDateTime(int year, int month, int day, int hour, int minute, int second,int millisecond)
     {
