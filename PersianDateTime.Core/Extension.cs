@@ -70,7 +70,7 @@
         /// <returns> 2017/09/3 15:16:29 </returns>
         public static string ToDigitalDateTimeString(this DateTime dt)
         {
-            return dt.ToString("yyyy/MM/d H:mm:ss");
+            return dt.ToString("yyyy/MM/dd H:mm:ss");
         }
 
 
@@ -83,7 +83,7 @@
         public static string ToPersianDigitalDateTimeString(this DateTime dt)
         {
             var pd = new PersianDateTime(dt);
-            return pd.ToString("yyyy/MM/d H:mm:ss");
+            return pd.ToString("yyyy/MM/dd H:mm:ss");
         }
 
 
@@ -124,7 +124,7 @@
         /// <returns> 1396/06/12 15:16:29 </returns>
         public static string ToPersianDigitalDateTimeString(this PersianDateTime dt)
         {
-            return dt.ToString("yyyy/MM/d H:mm:ss");
+            return dt.ToString("yyyy/MM/dd H:mm:ss");
         }
 
 
@@ -135,7 +135,7 @@
         /// <returns>1396/06/12</returns>
         public static string ToPersianDigitalDateString(this PersianDateTime dt)
         {
-            return dt.ToString("yyyy/MM/d");
+            return dt.ToString("yyyy/MM/dd");
         }
 
 
